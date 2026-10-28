@@ -1,7 +1,7 @@
 {
-  "name": "playwright-project",
+  "name": "saucedemo-test-automation",
   "version": "1.0.0",
-  "description": "",
+  "description": "Playwright TypeScript E2E Test Automation Framework for SauceDemo",
   "main": "index.js",
   "scripts": {
     "play:test": "npx playwright test",
@@ -11,9 +11,23 @@
     "test-l": "npx playwright test -g @login",
     "test-c": "npx playwright test -g @cart"
   },
-  "keywords": [],
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sunilkumar1701/SauceDemo-Test-Automation.git"
+  },
+  "keywords": [
+    "playwright",
+    "typescript",
+    "test-automation",
+    "pom",
+    "e2e-testing"
+  ],
+  "author": "Sunil Kumar",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sunilkumar1701/SauceDemo-Test-Automation/issues"
+  },
+  "homepage": "https://github.com/sunilkumar1701/SauceDemo-Test-Automation#readme",
   "devDependencies": {
     "@playwright/test": "^1.39.0",
     "@types/faker": "^6.6.9",
